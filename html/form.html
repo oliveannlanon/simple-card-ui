@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <style>
+    .input-group {
+      margin-bottom: 10px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+  </style>
+  <body>
+    <main>
+      <form action="#">
+        <!-- 1st row -->
+        <div>
+          <div class="input-group">
+            <label for="firstname">First Name</label>
+            <input
+              type="text"
+              id="firstname"
+              placeholder="Enter your First Name"
+            />
+          </div>
+          <div class="input-group">
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              id="lastname"
+              placeholder="Enter your Last Name"
+            />
+
+            <!-- end of 1st row -->
+          </div>
+        </div>
+
+        <!-- 2nd row -->
+        <div class="input-group">
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your Email Address"
+          />
+
+          <!-- end of 2nd row -->
+        </div>
+        <div>
+          <!-- 3rd row -->
+          <div class="input-group">
+            <label for="number">Age:</label>
+            <input type="number" id="number" placeholder="Enter your Age" />
+          </div>
+          <div class="input-group">
+            <label for="date"> Date of Birth:</label>
+            <input type="date" id="date" placeholder="Enter Date of Birth" />
+          </div>
+        </div>
+
+        <!-- 4th row -->
+        <div>
+          <div class="input-group">
+            <label for="number"> Address :</label>
+            <textarea
+              id="number "
+              cols="30"
+              rows="10"
+              style="resize: none"
+            ></textarea>
+          </div>
+
+          <div class="input-group">
+            <label for="gender"> Male:</label>
+            <input type="radio" id="male" name="gender" />
+          </div>
+
+          <div class="input-group">
+            <label for="gender"> Female :</label>
+            <input type="radio" id="female" name="gender" />
+          </div>
+
+          <div class="input-group">
+            <label for="gender"> Gay :</label>
+            <input type="radio" id="female" name="gender" />
+          </div>
+
+          <div class="input-group">
+            <label for="gender"> Lesbian :</label>
+            <input type="radio" id="female" name="gender" />
+          </div>
+          <!-- end of 4th row -->
+        </div>
+
+        <!-- 5th row -->
+        <div>
+          <div>
+            <input type="checkbox" id="html" />
+            <label for="html">HTML</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="css" />
+            <label for="css">CSS</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="javascript" />
+            <label for="javascript">JAVASCRIPT</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="bootstrap" />
+            <label for="bootstrap">BOOTSTRAP</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="git" />
+            <label for="git">GIT</label>
+          </div>
+
+          <div>
+            <label for="country"> Choose a country:</label>
+            <select name="" id="Country">
+              <option>Philippines</option>
+              <option>USA</option>
+              <option>Singapore</option>
+              <option>Japan</option>
+            </select>
+          </div>
+          <!-- end of 5th row -->
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
